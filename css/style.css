@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body{  
+    background: url("../img/line.png") 143px 106px no-repeat, #e8e8e8;
+}
+
+.travel{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 28px;
+    margin-top: 168px;
+    opacity: 0.6;
+    letter-spacing: 2px;
+}
+.h1{
+    text-align: center;
+    font-size: 36px;
+    max-width: 841px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.img{
+    background: url("../img/littleman.png") 50% no-repeat, #fff;
+    box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.15);
+    max-width: 841px;
+    min-height: 561px;
+    margin: 0 auto;
+    margin-bottom: 97px;
+}
+.text{
+    font-size: 24px;
+    max-width: 750px;
+    line-height: 40px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    opacity: 0.8;
+}
+.list{
+    font-size: 20px;
+    max-width: 750px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list li{
+    padding-bottom: 13px;
+    padding-left: 30px;
+    background: url("../img/icons/li.svg") left 4px no-repeat;
+}
+.span1{
+    opacity: 1;
+}
+.span2{
+    opacity: 1;
+    color: #80b7b3;
+    font-style: italic;
+}
+.span3{
+    opacity: 1;
+    font-weight: 700;
+}
+.span4{
+    opacity: 0.3;
+    text-decoration: line-through;
+}
+.button-box{
+    max-width: 750px;
+    margin: 0 auto;
+}
+.button{
+    width: 199px;
+    height: 44px;
+    background-color: #80b7b3;
+    letter-spacing: 0.2em;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 6px 40px 0 rgba(128, 183, 179, 0.54);
+}
+.button-text{
+    color: #fff;
+}
+.footer1{
+    height: 137px;
+}
+
+
